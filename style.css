@@ -2,11 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 Body ,
 .CV-header ,
 .CV-header-img,
-.CV-content{
+.CV-content,
+.CV-content-left{
     display: flex;
 }
 Body{
@@ -23,6 +27,13 @@ Body{
     box-shadow: 0px 3px 11px 1px #000000;
 
 }
+h3{
+    color: #1d3f53;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
 /*======================= start of the header =======================*/
 .CV-header{
     width: 100%;
@@ -38,8 +49,8 @@ Body{
 }
 .CV-header-content{
     width:75%;
+    gap: 3px;
     height: auto;
-    background: beige;
 }
 /*======================= start of the content =======================*/
 .CV-content{
@@ -47,14 +58,30 @@ Body{
     width: 100%;
     margin-top: 10px;
   justify-content: space-between;
-    background: cadetblue;
 
 }
 .CV-content-left{
     width: 25%;
-    background: #d1a968;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mail:before{
+    content: "📬";
+    vertical-align: middle;
+}
+.nationality:before{
+    content: "🇨🇮";
+    vertical-align: middle;
+}
+.tel:before{
+    content: "📞";
+    vertical-align: middle;
+}
+.location:before{
+    content: "📍";
+    vertical-align: middle;
 }
 .CV-content-right{
     width: 75%;
-    background: #4f8a44;
 }
