@@ -58,7 +58,9 @@ Ce projet est un curriculum vitae en ligne responsive qui présente de manière 
 7. **Centres d'intérêt** : Hobbies et activités
 
 
-## 🎨 Personnalisation
+## 🎨 image
+
+![image](files/img.png)
 
 
 ### Modifier la typographie
@@ -114,4 +116,4 @@ Pour toute question ou retour sur ce projet :
 
 ---
 
-Dernière mise à jour : 04-01-2025
+Dernière mise à jour : 23-01-2025
